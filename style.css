@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+body {
+    background-color: black;
+}
+.container{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    translate: 30% 15%;
+}
+.card{
+    height: 450px;
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        border-color: red;
+        box-shadow: 0 0 10px red;
+    }
+    100% {
+        border-color: blue;
+        box-shadow: 0 0 10px blue;
+    }
+}
+.img1{
+    height: 360px;
+    width: 180px;
+    background-image: url(Yeah\,\ awesome.jpeg);
+    background-size: cover ;
+}
+.img2{
+    height: 360px;
+    width: 180px;
+    background-image: url(Spectacular\ Spider-Man\ 4K\ Wallpaper\ for\ Marvel\ Fans!.jpeg);
+    background-size: cover ;
+}
+.img3{
+    height: 360px;
+    width: 180px;
+    background-image: url(download.jpeg);
+    background-size: cover ;
+}
+.img4{
+    height: 360px;
+    width: 180px;
+    background-image: url(download\ \(1\).jpeg);
+    background-size: cover ;
+}
+p{
+    font-size: 20px;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    padding-top: 10%;
+}
